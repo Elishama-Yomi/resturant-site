@@ -3,6 +3,7 @@ import Header from './header/Header';
 import Home from './Home/Home';
 import About from './about/About';
 import Contact from './contact/Contact';
+import './App.css';
 function App() {
   return (
     <>

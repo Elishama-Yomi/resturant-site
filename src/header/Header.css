@@ -5,6 +5,9 @@ img{
     max-width: 100%;
     height: auto;
 }
+.one{
+    margin-right: .7rem;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -31,13 +34,21 @@ img{
     justify-content: flex-end;
 }
 ul{
+    align-items: center;
     display: flex;
     list-style: none;
     width: 100%;
     justify-content: space-evenly;
 }
 header a{
+    
     font-size: 1.2rem;
     text-decoration: none;
-    color: #fff;
+    color: #A4ABB0;
+}
+.header__menu a:nth-child(4){
+    color:#F8F8FA;
+    border-radius: 28px;
+    padding:.7rem 2rem;
+    background-color: #C1B07B;
 }

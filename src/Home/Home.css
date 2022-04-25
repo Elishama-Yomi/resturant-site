@@ -1,1 +1,25 @@
 
+.background{
+    background-blend-mode: overlay;
+    background:url("../asset/food.jpg") no-repeat center center ;
+    background-size:cover;
+    background-color: #556C78;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+h1{
+    font-weight: bold;
+    color:#C1B07B;
+    letter-spacing: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: 'PT Serif', serif;
+}
+.two{
+    margin-left: 18rem;
+}
+.background .one{
+    margin-right: 10rem;
+}

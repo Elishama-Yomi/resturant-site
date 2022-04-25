@@ -1,7 +1,14 @@
 /* generate react arrow function template */
+import "./Home.css";
+
 const Home = () => { 
     return (
-        <h1>Home </h1>
+        <div className="background">
+            <div>
+                  <h1 className="one">Seafood</h1>
+            <h1 className="two">resturant</h1>
+          </div>
+       </div>
     )
 }
 export default Home;
