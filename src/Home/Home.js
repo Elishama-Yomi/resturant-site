@@ -6,7 +6,7 @@ const Home = () => {
         <div className="background">
             <div>
                   <h1 className="one">Seafood</h1>
-            <h1 className="two">resturant</h1>
+            <h1 className="two">restaurant</h1>
           </div>
        </div>
     )

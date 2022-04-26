@@ -1,0 +1,59 @@
+.box img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10%;
+  }
+  .box{
+    width: 400px;
+    height:370px;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+  }
+  .box:hover{
+    background-color: white;
+     border: solid 5px #C1B07B;
+  }
+  .boxy{
+    margin-left: 100px;
+    margin-right: 50px;
+  }
+  .boxy button{
+      border-style: none;
+      border: none;
+      background: none;
+  }
+  .menu{
+      color: #364248;
+      padding: 20px;
+      padding-bottom: 0px;
+      position: relative;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Helvetica Neue';
+    letter-spacing: normal;
+  }
+
+  .menu:before,
+  .menu:after{
+    content:"";
+    height: 2px;
+    background: #4B5C66;
+    display: block;
+    position: absolute;
+    top: 65%;
+    margin-left: 120px;
+    /* width: 500px; */
+    width: 30%;
+  }
+  
+  .menu:after{
+    right: 0;
+    margin-right: 140px;
+  }
