@@ -4,9 +4,13 @@ import './contact.css';
 function Reservation() {
     const [name, setName] = useState("");
   
-    function handleSubmit() {
-      alert(`Congratulations ${name}! You have successfully booked your reservation. We look forward to hosting you.\n\n`);
-      return false;
+  function handleSubmit(e) {
+      e.preventDefault();
+      if (name) {
+        alert(`Thank you for your reservation, ${name}!`);
+      }else{
+        alert("Please enter your name");
+      }
     }
 
     return (
