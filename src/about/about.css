@@ -1,0 +1,9 @@
+.backg{
+    background-blend-mode: overlay;
+    background:url("../asset/about.jpg") no-repeat center center ;
+    background-size:cover;
+    background-color: #c9dfeb;
+    min-height: 90vh;
+    display: grid;
+    place-items: center;
+}
