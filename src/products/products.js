@@ -33,8 +33,9 @@ function Products(){
     return (
         <>
         <div>
-            <h1 className='menu'>Menu Items</h1>
-                <div className="boxy" style={{ display: "flex", flexWrap: "wrap" }}>
+                <div className="container">
+                    <h1 className='menu'>Menu Items</h1>
+                <div className="boxy">
                {products && products.map((item, i ) =>{
         
                 return(
@@ -48,7 +49,8 @@ function Products(){
                     )
                 })}
                </div>
-               </div>
+                </div>        
+       </div>
 
                 </>
                 )

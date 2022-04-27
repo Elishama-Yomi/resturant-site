@@ -6,6 +6,10 @@
     margin-right: auto;
     border-radius: 10%;
   }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   .box{
     width: 400px;
     height:370px;
@@ -21,9 +25,13 @@
      border: solid 5px #C1B07B;
   }
   .boxy{
+    gap: 72px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(325px, 1fr));
     margin-left: 100px;
     margin-right: 50px;
-  }
+    }
+  
   .boxy button{
       border-style: none;
       border: none;
@@ -48,12 +56,12 @@
     display: block;
     position: absolute;
     top: 65%;
-    margin-left: 120px;
+    
     /* width: 500px; */
     width: 30%;
   }
   
   .menu:after{
-    right: 0;
+    right: -104px;
     margin-right: 140px;
   }
