@@ -1,0 +1,88 @@
+ .reserve {
+  margin-top: 120px;
+  margin-right: 37px;
+  padding: 50px 25px;
+  border: whitesmoke ridge 5px;
+  float: right;
+  width: 80%;
+}
+.reserve p{
+  font-weight: bold;
+  font-size: 24px;
+}
+.da{
+  margin-bottom: 9px;
+}
+.ti{
+  margin-top: 9px;
+}
+.res
+ {
+  width: 95%;
+  border: solid 1px gray ;
+  border-radius: 25px;
+  padding: 10px 15px;
+  margin: 0 auto 10px auto;
+  font-size: 15px;
+}
+.dt{
+  border: none;
+  padding-left: 30px;
+  width: 78%;
+}
+
+.reserve button {
+  font-size: 18px;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    background-color: #c0a75e;
+    color: white;
+    border: double;
+    width: 100px;
+    height: 100px;
+
+  }
+
+  textarea {
+    font-size: 1.1em;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    height: 150px;
+  } 
+
+  .contact{
+    padding-bottom: 20px;
+    margin-top: 30px;
+    font-size: 50px;
+    text-decoration-line: underline;
+    clear: both;
+  }
+
+  .info img{
+  width: 25px;
+  height: 50px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+
+} 
+ .info {
+    margin-top: 15px;
+    margin-left: 100px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 30%;
+  }
+  .info h2{
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 19px;
+    text-align: left;
+  }
+  .info p{
+    line-height: 30px;
+  }
+  .info span{
+    font-size: 15px;
+  }
+ 
